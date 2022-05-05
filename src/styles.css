@@ -12,6 +12,7 @@ body {
   line-height: 1.5;
   font-family: "Inter", sans-serif;
   color: #2b283a;
+  cursor: default;
 }
 .container {
   max-width: 1040px;
@@ -40,8 +41,6 @@ section {
 /* Card */
 .card {
   display: flex;
-  max-width: 500px;
-  max-height: 200px;
   gap: 2rem;
   padding-bottom: 1.5rem;
   padding-top: 1.5rem;
@@ -66,7 +65,7 @@ section {
 }
 .card-location {
   text-transform: uppercase;
-  margin-left: 0.4rem;
+  margin-left: 0.6rem;
   margin-right: 1.2rem;
   letter-spacing: 0.17em;
 }
